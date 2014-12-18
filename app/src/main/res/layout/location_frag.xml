@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/address"
+        android:textSize="10sp"
+        android:hint="Address here"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/radius"
+        android:textSize="10sp"
+        android:inputType="number"
+        android:hint="Radius"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/address" />
+    <Button
+        android:id="@+id/buttonShow"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:text="Locate"
+        android:textSize="10sp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/radius"/>
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_below="@+id/address"/>
+
+</RelativeLayout>

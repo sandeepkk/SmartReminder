@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0099cc"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Title"
+        android:id="@+id/title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:visibility="invisible"
+        android:id="@+id/id" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="#0099cc"
+        android:layout_toRightOf="@id/title"
+        android:text="Date"
+        android:textSize="15sp"
+        android:id="@+id/date"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="#0099cc"
+        android:layout_toRightOf="@id/date"
+        android:text="Time"
+        android:textSize="15sp"
+        android:id="@+id/time"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="#0099cc"
+        android:layout_below="@id/title"
+        android:text="Time"
+        android:textSize="15sp"
+        android:id="@+id/locationName"
+        />
+
+</RelativeLayout>

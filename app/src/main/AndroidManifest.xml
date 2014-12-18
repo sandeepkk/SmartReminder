@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skk.smartreminder" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.example.googlemaps.permission.MAPS_RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".activities.NewReminder"
+            android:label="New Reminder" >
+        </activity>
+
+        <receiver
+            android:name=".utils.ReminderReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.skk.smartreminder.alarm" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.skk.smartreminder.geofence" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyD5Cj5IjdLaU4a66o6sPEQ-r8b6cPyCpxA" />
+
+        <activity
+            android:name=".activities.ShowReminder"
+            android:label="@string/title_activity_show_reminder" >
+        </activity>
+        <activity
+            android:name=".activities.HomeActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

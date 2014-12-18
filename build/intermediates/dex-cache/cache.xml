@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/sandeepkannan/AndroidStudioProjects/SmartReminder/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-bc60a143e69e53205cb7100ae6227275bb024deb.jar"
+        jar="/Users/sandeepkannan/AndroidStudioProjects/SmartReminder/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.2/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9346da9fb778af9e451211bbc3541daced174ba7"/>
+    <item
+        dex="/Users/sandeepkannan/AndroidStudioProjects/SmartReminder/app/build/intermediates/pre-dexed/debug/classes-c27ec5e60b6e9743e7f10a737f82ee23753a74c7.jar"
+        jar="/Users/sandeepkannan/AndroidStudioProjects/SmartReminder/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3"/>
+    <item
+        dex="/Users/sandeepkannan/AndroidStudioProjects/SmartReminder/app/build/intermediates/pre-dexed/debug/classes-edeb5d2389c832facb2767c3172f39aa4e1e03ef.jar"
+        jar="/Users/sandeepkannan/AndroidStudioProjects/SmartReminder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.2.42/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e5f81129dfb3d02df80126512bc98278ed2bb40a"/>
+    <item
+        dex="/Users/sandeepkannan/AndroidStudioProjects/SmartReminder/app/build/intermediates/pre-dexed/debug/classes-65e5f3276178924f0d3989e80ca0196a9ac993b0.jar"
+        jar="/Users/sandeepkannan/AndroidStudioProjects/SmartReminder/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="61965ae058916e6a57950dd61b0164dc866af19a"/>
+    <item
+        dex="/Users/sandeepkannan/AndroidStudioProjects/SmartReminder/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-413960d429eb3b14b858751087e9883ca3bad232.jar"
+        jar="/Users/sandeepkannan/Applications/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6"/>
+    <item
+        dex="/Users/sandeepkannan/AndroidStudioProjects/SmartReminder/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-12c0e6f6257720d40c5ce01788f69a6b6a48da1e.jar"
+        jar="/Users/sandeepkannan/AndroidStudioProjects/SmartReminder/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f"/>
+
+</pre-dex-items>
